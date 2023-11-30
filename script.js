@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
             mostrarExito();
         }
 
-        inputName.after("<span>Este campo es requerido</span>")
+        
     
     });
 
