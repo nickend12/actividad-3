@@ -13,26 +13,24 @@
 </head>
 <body>
     
-    <div class="login-form">
-        <h1><strong> "Store video games"</strong></h1>
-        
-        <form action="#"method="post"></form>
+    <form id="miFormulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
 
-            <p><strong>Name:</strong></p>
-            <input type="text"name="name" placeholder="ingrese su nombre" requierd="" />
+        <label for="price">Precio:</label>
+        <input type="number" id="price" name="price" required>
 
-            <p><strong>Price:</strong></p>
-            <input type="number"number="numero" placeholder="ingrese cantidad" requierd="" />
+        <label for="inventary">Inventario:</label>
+        <input type="number" id="inventary" name="inventary" required>
 
-            <p><strong>Inventory:</strong></p>
-            <input type="number"number="numero" placeholder="ingrese cantidad" requierd="" />
+        <button type="submit">Crear nuevo producto</button>
+    </form>
 
-           <input type="submit"value="Created new product">
-        </form>
-        <div id="errores"></div>
-    </div>
-    <a href="index.html">Regresar</a>
+    <div id="errores"></div>   
+
     <script src="script.js"></script>
+    <a href="index.html">Regresar</a>
+    
 </body>
 </body>
 </html>

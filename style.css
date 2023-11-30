@@ -7,19 +7,7 @@ body {
   background:url(889326.jpg);
   background-position:center center;  
   background-repeat: no repeat;
-  background-attachment: fixed;
-}
-
-  .login-form {
-    width: 28%;
-    margin: 0 auto;
-    background: url(889326.jpg)no-repeat 0px 0px;
-    background-size:cover ;
-    background-position: center;
-    padding: 30px 33px 67px;
-    border-top: 8px solid rgba(0, 1, 7, 0.4);
-    box-shadow: 0px 32px  44px -21px rgba(0, 0, 0,0.72 );
-  } 
+  background-attachment: fixed;} 
   
    
   h1 {    
@@ -49,12 +37,53 @@ a {
   color:rgb(187, 18, 18);
 }
 
+
+
+form {
+
+  width: 28%;
+    margin: 0 auto;
+    background: url(889326.jpg)no-repeat 0px 0px;
+    background-size:cover ;
+    background-position: center;
+    padding: 30px 33px 67px;
+    border-top: 8px solid rgba(0, 1, 7, 0.4);
+    box-shadow: 0px 32px  44px -21px rgba(0, 0, 0, 0.72);
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: firebrick;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color:#fd0f0f;
+  color:#1128a7(255, 255, 255);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1128a7;
+}
+
+
 .error {
   color: red;
   margin-top: 10px;
 }
 
 .exito {
-  color: green;
+  color: rgb(13, 0, 128);
   margin-top: 10px;
 }
