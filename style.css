@@ -1,43 +1,35 @@
 
-  h1{
-    color:#fd0f0f;
-    text-shadow: 1px 2px 2px blue 0 0 25px black 0 0 5px black;
-    text-align: center;
-  }
-
-  div.galeria{
-    margin: 10 px 20px;
-    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
-    float: left;
-    width:60px;    
-  }  
-
-  div.galeria{
-    width: 20%;
-    height: auto;
-  }
-
- div.galeria:hover{
-  border: 1px solid lightblue;
-  transform:rotate(-3deg);
-  }
-
-  div.pie{
-    text-align: center;
-    text-shadow:2px 2px 5px blue ;
-    padding: 10px;
-  }
+.menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
  
   body {      
     text-transform:uppercase ;  
     background-size:cover;
-    padding: top 200px;;
+    padding: top 20px;;
     background:url(IMG/889326.jpg);
     background-position:center center;  
     background-repeat: no repeat;
     background-attachment: fixed;
+    
   } 
   
+  form {
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 50px;
+    background: url(IMG/889326.jpg)no-repeat 0px 0px;
+    background-size:cover;
+    background-position: center;
+    padding: 30px 33px 67px;
+  }
   
 
    input[type="submit"]{
@@ -63,16 +55,6 @@ a  {
   
 }
 
-
-form {
-  width: 20%;
-  margin: 0 auto;
-  border-radius: 50px;
-  background: url(IMG/889326.jpg)no-repeat 0px 0px;
-  background-size:cover;
-  background-position: center;
-  padding: 30px 33px 67px;
-}
 
 label {
   display: block;
