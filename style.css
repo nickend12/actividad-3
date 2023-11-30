@@ -4,7 +4,7 @@ body {
   text-transform:uppercase ;  
   background-size:cover;
   padding: top 200px;;
-  background:url(889326.jpg);
+  background:url(IMG/889326.jpg);
   background-position:center center;  
   background-repeat: no repeat;
   background-attachment: fixed;} 
@@ -35,6 +35,7 @@ input[type="text"],input[type="number"]{
     
 a {
   color:rgb(187, 18, 18);
+  text-align: center;
 }
 
 
@@ -42,7 +43,7 @@ form {
   width: 20%;
   margin: 0 auto;
   border-radius: 50px;
-  background: url(889326.jpg)no-repeat 0px 0px;
+  background: url(IMG/889326.jpg)no-repeat 0px 0px;
   background-size:cover;
   background-position: center;
   padding: 30px 33px 67px;
@@ -74,8 +75,6 @@ button:hover {
   
 }
 
-
-
 .error {
   color: red;
   margin-top: 10px;
@@ -86,25 +85,3 @@ button:hover {
   margin-top: 10px;
 }
 
-div.galeria{
-  margin: 10px 20px;
-  box-shadow: 0 4px 8px 0 lightskyblue 0 6px 28 px 0 rgb(13, 0, 128) ;
-  float: left;
-  width: 358px;
-  border-radius: 50px;
-} 
-
-div.galeria img{
-  width: 180%;
-  height: auto;
-
-div.galeria:hover{
-  border: 1px solid lightblue ;
-  transform: rotate(-3deg);
-}
-
-div.pie{
-  text-align:center;
-  text-shadow: 2px 2px 5px blue;
-  padding: 10px;
-}
