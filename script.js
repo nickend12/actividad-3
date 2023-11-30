@@ -34,6 +34,9 @@ document.addEventListener("DOMContentLoaded", function() {
         if (erroresDiv.innerHTML === "") {
             mostrarExito();
         }
+
+        inputName.after("<span>Este campo es requerido</span>")
+    
     });
 
     function mostrarError(mensaje) {
