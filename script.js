@@ -32,8 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         
         if (erroresDiv.innerHTML === "") {
-            mostrarExito();
-        }
+            mostrarExito();        }
 
         
     
