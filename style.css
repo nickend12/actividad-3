@@ -1,5 +1,11 @@
-ss
-.menu{
+body {
+  text-transform: uppercase;
+  background: url(IMG/889326.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.menu {
   position: absolute;
   top: 0;
   left: 0;
@@ -9,121 +15,110 @@ ss
   justify-content: space-between;
 }
 
-img{
+h2 {
+  color: #fd0f0f;
+  text-align: center;
+}
+
+.product-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-1 {
+  position: relative;
+  overflow: hidden;
+  margin-right: 10px; 
+}
+
+.product-1:last-child {
+  margin-right: 0; 
+}
+
+.product-1 img {
   width: 100%;
-
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
 }
 
-h2{
-  color:#fd0f0f;
+.product-txt {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
   text-align: center;
+  transition: transform 0.5s ease-in-out;
 }
 
-.product-content{
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
+.price {
+  margin-bottom: 5px;
 }
 
-product-1{
-  background-color:#2a223a ;
-  border-radius: 100px;
-  }
-
-
-.product-txt{
-  padding:50px 30px;
-
+.btn-2 {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease-in-out;
 }
 
-h3{
-  border-radius: 20%;
-  text-align: center;
-  background-color:#fd0f0f ;
-  border: #fd0f0f;
-  font-size: 20px;
-  color: #ffffff;
-  margin-bottom: 20px;
+.btn-2:hover {
+  background-color: #2980b9;
 }
 
-.price{
-    display: flex;
-  justify-content: space-between;
-  align-items: center;
 
+.product-1:hover img {
+  transform: translateX(10px);
 }
 
-.price p{  
-  font-size: 17px;
-  color: #ff5a2c ;
+.product-1:hover .product-txt {
+  transform: translateX(10px);
 }
 
-.btn-2{
-  border-radius: 20%;
-  padding: 5px 25px;
-  background-color: #ff5a2c;
-  margin-right: 0;
-}
-
-.contact{
+.contact {
   padding: 150px 300px;
-
 }
 
-.contact-content{
- background-color: #2a223a; 
- text-align: center;
- border-radius: 50px;
- padding: 50px;
+.contact-content {
+  background-color: #2a223a;
+  text-align: center;
+  border-radius: 50px;
+  padding: 50px;
 }
 
-  
- 
-  body {      
-    text-transform:uppercase ;  
-    background-size:cover;
-    padding: top 20px;;
-    background:url(IMG/889326.jpg);
-    background-position:center center;  
-    background-repeat: no repeat;
-    background-attachment: fixed;
-    
-  } 
-  
-  form {
-    width: 30%;
-    margin: 0 auto;
-    border-radius: 50px;
-    background: url(IMG/889326.jpg)no-repeat 0px 0px;
-    background-size:cover;
-    background-position: center;
-    padding: 30px 33px 67px;
-  }
-  
-
-   input[type="submit"]{
-   background: blue;
-      }
-   
-input[type="text"],input[type="number"]{
-  background: #0f27fd; 
-  
+form {
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background: url(IMG/889326.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 33px 67px;
 }
 
- p {
-  
+input[type="submit"] {
+  background: blue;
+}
+
+input[type="text"],
+input[type="number"] {
+  background: #0f27fd;
+}
+
+p {
   color: rgb(187, 18, 18);
-  background-position: center; 
-  
 }
-    
-a  {
-  color:rgb(241, 232, 232);
+
+a {
+  color: rgb(241, 232, 232);
   text-align: right;
   font-size: 15px;
-  
 }
-
 
 label {
   display: block;
@@ -133,23 +128,22 @@ label {
 
 input {
   width: 30%;
-  padding:  5px,5px;
+  padding: 5px;
   margin-bottom: 25px;
 }
 
 button {
   display: flex;
-  background-color:#fd0f0f;
-  margin-top:30px;
+  background-color: #fd0f0f;
+  margin-top: 30px;
   padding: 10px 10px;
-  border:none ;
+  border: none;
   border-radius: 15px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: blue;  
-  
+  background-color: blue;
 }
 
 .error {
@@ -162,3 +156,17 @@ button:hover {
   margin-top: 10px;
 }
 
+form {
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background: url(IMG/889326.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 33px 67px;
+  transition: transform 0.3s ease-in-out;
+}
+
+form:hover {
+  transform: scale(1.05); 
+}
