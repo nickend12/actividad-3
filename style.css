@@ -170,3 +170,93 @@ form {
 form:hover {
   transform: scale(1.05); 
 }
+
+
+header {
+  background-color:#fd0f0f;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+nav a#carLink {
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#carrito {
+  border: 1px solid #ccc;
+  background: url(IMG/889326.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 33px 67px;
+  margin: 20px auto;
+  max-width: 600px;
+  width: 30%;
+  border-radius: 50px;
+  color:#fd0f0f;
+  font-weight: bold;
+}
+
+
+#totalCarrito {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.producto {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+img {
+  margin-right: 10px;
+}
+
+input {
+  width: 30px;
+}
+
+#carrito img {
+  max-width: 50px;
+  height: 50px;
+}
+
+
