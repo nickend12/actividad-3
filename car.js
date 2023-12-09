@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function agregarAlCarrito(nombre, precio, imagen) {
       var producto = document.createElement('div');
       producto.innerHTML = `
-          <img src="${imagen}" alt="${nombre}" width="150">
+          <img src="${imagen}" alt="${nombre}" width="200">
           <span>${nombre}</span>
           <span>Precio: $${precio}</span>
           <label>Cantidad: <input type="number" value="1" min="1"></label>
